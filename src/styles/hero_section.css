@@ -6,7 +6,7 @@
 .hero-section-container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 60px 0;
     color: #fff;
@@ -67,80 +67,57 @@
 
 
 
-
 @media screen and (max-width: 1024px) {
+    .hero-section-background {
+        padding-top: 10vh;
+    }
+
     .image-box {
         right: 0;
+        width: 300px;
+        height: 370px;
     }
 
     .hero-section-container {
         width: 100%;
         padding: 30px;
     }
-}
 
-
-
-
-@media screen and (max-width: 924px) {
-    .image-box {
-        width: 340px;
-        height: 380px;
-    }
-}
-
-
-
-
-@media screen and (max-width: 830px) {
-    .image-box {
-        width: 300px;
-        height: 370px;
-    }
-
-    h1 {
-        font-size: 54pt;
+    .section-left h1 {
+        font-size: 50px;
       }
 
       h2 {
-        font-size: 34pt;
+        font-size: 34px;
       }
 }
 
 
 
-
-@media screen and (max-width: 750px) {
-    .section-left {
-        width: 100%;
-    }   
-
-    .image-box {
-        top: 35%;
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 659px) {
     .hero-section-container {
         flex-direction: column;
     }
 
     .image-box {
         width: 100%;
-        height: 300px;
+        height: 250px;
         position: initial
     }
 
     .section-left p {
         width: 100%;
+        font-size: smaller
     }
 
     .section-right {
         position: initial;
         margin-top: 30px;
-        margin-bottom: -80px;
+        margin-bottom: -100px;
         width: 100%;
+    }
+
+    .btn {
+        font-size: smaller;
     }
 }

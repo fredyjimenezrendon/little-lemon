@@ -32,7 +32,7 @@ const Footer = () => {
                         <ul>
                             <li>96 ISABELLA STREET, LONDON SE1 8DD</li>
                             <li>TEL: 020 7928 0678</li>
-                            <li>EMAIL: JACKS@WINDMILLTAVERNS.COM</li>
+                            <li>EMAIL: Email: info@littlelemon.com</li>
                         </ul>
                     </div>
             </div>

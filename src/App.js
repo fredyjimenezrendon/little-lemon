@@ -7,7 +7,6 @@ function App() {
   return (
     <Router>
       <div>
-        <h1>Little Lemon App setup</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/reservations" element={<Reservations />} />

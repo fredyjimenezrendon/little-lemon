@@ -17,14 +17,14 @@ const SpecialsCard = () => {
         },
         {
             image: Dessert2,
-            title: "Bruchetta",
-            price: "$5.99",
+            title: "Pizza",
+            price: "$15.99",
             description: "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic and rosemary croutons.",
             order: "Order a delivery"
         },
         {
             image: Dessert3,
-            title: "Lemon Dessert",
+            title: "Fancy Soup",
             price: "$5.00",
             description: "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic and rosemary croutons.",
             order: "Order a delivery"

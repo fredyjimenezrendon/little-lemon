@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,6 @@
 .footer-container p {
     width: 60%;
     margin: 10px 0 60px;
-
 }
 
 .footer-container img {
@@ -30,7 +29,7 @@
 }
 
 .footer-content ul li {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .footer-content h5 {
@@ -48,7 +47,6 @@
     .footer-container p {
         width: 90%;
         font-size: smaller;
-
     }
 
     .footer-content {
@@ -68,5 +66,4 @@
     .footer-content ul li {
         font-size: smaller;
     }
-
   }
