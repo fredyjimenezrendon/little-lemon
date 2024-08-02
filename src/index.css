@@ -32,3 +32,12 @@ code {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&family=Markazi+Text:wght@400;500&display=swap');
+
+
+@media screen and (max-width: 1024px) {
+  .specials-section-container {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
