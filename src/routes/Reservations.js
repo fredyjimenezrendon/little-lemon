@@ -1,12 +1,13 @@
 import React from 'react';
 import HeaderElement from '../components/HeaderElement';
 import Footer from '../components/Footer';
+import ReservationsPage from '../components/ReservationsPage';
 
 const Reservations = () => {
   return (
     <div>
       <HeaderElement />
-      <h1 style={{textAlign: "center", paddingTop: "15%", height: "90vh"}}>Reservations</h1>
+      <ReservationsPage />
       <Footer />
     </div>
   )
